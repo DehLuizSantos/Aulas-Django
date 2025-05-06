@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+*.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Migrations (opcional, se quiser gerar de novo em cada ambiente)
+**/migrations/
+!**/migrations/__init__.py
+
+# IDEs e sistemas operacionais
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente e variáveis sensíveis
+.env
+.env.*
+
+# Cache do pip
+pip-wheel-metadata/
+__pypackages__/
+
+# Build
+dist/
+build/
+*.egg
